@@ -1,23 +1,29 @@
 # i3
-Some nice configs for i3.
+Welcome to my setup page for i3!
 
-# File Locations
-A simple guide
+# File Allocations
+So, you'll want to put these files in the following places:
+ - Xresources --> `~/.Xresources`
+ - mail.sh.x --> `~/.mail.sh.x`
+ - Iconicweather.sh --> `~/Iconicweather.sh`  *not hidden*
+ - i3blocks.conf --> `~/.i3blocks.conf`
+ - config --> `~/.config/i3/config`
+ - .zshrc --> `~/.zshrc`
+ 
+# Install Dependencies
+**Debian / apt systems**
+```
+sudo apt-get install rofi i3blocks nitrogen lxappearance chromium-browser compton xfonts-terminus
+```
+**Arch**
+```
+sudo pacman -S rofi i3blocks nitrogen lxappearance chromium-browser compton xfonts-terminus
+```
+# Fonts & Icons
+Doubleclick the font files, select 'install'.
 
-- .Xresources can be dropped right in your $HOME/
-- zshrc is essentially the same, contains a screenfetch for ArchLinux, if you're not already using Zsh, you now have a good excuse to start.
--
+*Good luck, contact me if there's any issues*
 
-**You'll want the 'Terminus' font**
--You can probably just find it in your repos with:
-
-'apt-cache search terminus' or 'pacman -Ss terminus'
-
-
-If you're too lazy to look through the Config file, extra dependencies are 'nitrogen', 'i3bars', 'compton', 'rofi', and 'konsole'.
-
-
-I'll update this tomorrow
 
 
 
