@@ -24,6 +24,7 @@ Doubleclick the font files, select 'install'.
 
 *Good luck, contact me if there's any issues*
 
+**LOOK OVER THE CONFIG FILE `~/.config/i3/config` FOR KEYBINDINGS!!!**
 
 
 
