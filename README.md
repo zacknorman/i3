@@ -19,9 +19,12 @@ sudo apt-get install rofi i3blocks nitrogen lxappearance chromium-browser compto
 ```
 sudo pacman -S rofi i3blocks nitrogen lxappearance chromium-browser compton xfonts-terminus
 ```
++ You'll need `oh-my-zsh`
++ You'll also need `archey3`, but this can be substituted with `screenfetch`, just edit .zshrc
+
 # Fonts & Icons
 Doubleclick the font files, select 'install'.
-
+Like I said earlier, I'd download `xfonts-terminus`
 *Good luck, contact me if there's any issues*
 
 **LOOK OVER THE CONFIG FILE `~/.config/i3/config` FOR KEYBINDINGS!!!**
