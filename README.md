@@ -13,7 +13,7 @@ So, you'll want to put these files in the following places:
 # Install Dependencies
 **Debian / apt systems**
 ```
-sudo apt-get install rofi i3blocks nitrogen lxappearance chromium-browser compton xfonts-terminus
+sudo apt-get install rofi i3blocks nitrogen lxappearance chromium-browser compton xfonts-terminus gnome-font-viewer
 ```
 **Arch**
 ```
@@ -21,6 +21,8 @@ sudo pacman -S rofi i3blocks nitrogen lxappearance chromium-browser compton xfon
 ```
 + You'll need `oh-my-zsh`
 + You'll also need `archey3`, but this can be substituted with `screenfetch`, just edit .zshrc
++ You'll also need `Font Awesome`, `Roboto Fonts`, and `Powerline Patched` fonts.
++ If you'd rather use the optional LemonBar theme (WHICH WAS CREATED BY https://github.com/demure -- AWESOME CREATOR), just modify your `i3bar_command` to point to `i3_lemonbar.sh`
 
 # Fonts & Icons
 Doubleclick the font files, select 'install'.
